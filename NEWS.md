@@ -1,3 +1,18 @@
+# sl3 1.3.6
+* Fix breaking of `Lrnr_hal9001$new(max_degree = NULL)` on initialization due
+  to limitations in `args_to_list()`. This was a general problem with the
+  parsing of arguments in `args_to_list()`.
+* Resolve an issue with `pkgdown::build_site` breaking due to the use of
+  `knitr::read_chunk` in the custom learners vignette.
+* Changes necessary to support universal meta-learning step with time-series,
+  fixing issues with rolling cross-validation routines.
+
+# sl3 1.3.5
+* New screening methods and convex combination in `Lrnr_nnls`.
+* Overhaul of data preprocessing, through changes in `sl3_Task`.
+* Bug fixes, including covariate subsetting and better handling of NAs.
+* Documentation cleanup, unit testing fixes, and reproducibility updates.
+
 # sl3 1.3.1
 * Overhaul of data preprocessing.
 * New screening methods and convex combination in `Lrnr_nnls`.

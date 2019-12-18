@@ -35,8 +35,6 @@ r_packages:
 r_github_packages:
   - r-lib/covr
   - r-lib/sessioninfo
-  - osofr/simcausal
-  - osofr/condensier
   - tlverse/origami
   - tlverse/delayed
   - tlverse/hal9001
