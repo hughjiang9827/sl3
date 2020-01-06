@@ -7,7 +7,7 @@
 ## R CMD check results
 * There were no ERRORs.
 * There were no WARNINGs.
-* There was no NOTEs.
+* There were no NOTEs.
 
 ## Downstream dependencies
 * There are no known downstream dependencies.
